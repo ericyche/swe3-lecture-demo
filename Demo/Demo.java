@@ -7,6 +7,9 @@ public class Demo {
         int x = new Random().nextInt();
         // Task 1: If number is even, print "Hello"
         // Task 2: If number is odd, print "World"
+        if (x % 2 == 0) {
+            System.out.println("Hello");
+        }
         System.out.println("Test");
     }
 }
