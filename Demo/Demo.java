@@ -10,6 +10,9 @@ public class Demo {
         if (x % 2 == 1) {
             System.out.println("World");
         }
+        if (x % 2 == 0) {
+            System.out.println("Hello");
+        }
         System.out.println("Test");
     }
 }
